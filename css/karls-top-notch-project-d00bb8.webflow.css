@@ -2463,19 +2463,49 @@ a {
   background-repeat: no-repeat;
 }
 
-.team-member-photo.chamo {
+.team-member-photo.yael {
   background-position: 50% 98%;
+  background-image: url('../images/yael.jpg');
 }
 
-.team-member-photo.fernando {
-  background-image: url('../images/Fernando.jpg');
+.team-member-photo.praveein {
+  background-position: 50% 98%;
+  background-image: url('../images/praveein.jpg');
+}
+
+.team-member-photo.clara {
+  background-position: 50% 98%;
+  background-image: url('../images/clara.jpg');
+}
+
+.team-member-photo.nico {
+  background-position: 50% 98%;
+  background-image: url('../images/nico.jpg');
+}
+
+.team-member-photo.gladys {
+  background-image: url('../images/gladys.jpg');
+  background-position: 50% 100%;
+}
+
+.team-member-photo.adam {
+  background-image: url('../images/adam.jpg');
+  background-position: -9% 100%;
+}
+
+.team-member-photo.anahi {
+  background-image: url('../images/anahi.jpg');
+  background-position: -9% 100%;
+}
+
+.team-member-photo.karl {
+  background-image: url('../images/profil-karl.jpg');
   background-position: 50% 100%;
 }
 
 .team-member-photo.romina {
   background-image: url('../images/Romina-1.jpg');
   background-position: -9% 100%;
-}
 
 .time_desktop {
   font-style: italic;
