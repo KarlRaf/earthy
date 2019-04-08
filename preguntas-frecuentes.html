@@ -4,7 +4,7 @@
 <html data-wf-page="5c941de121f1edc2fc15cf88" data-wf-site="5c941de121f1edd3c815cf11">
 <head>
   <meta charset="utf-8">
-  <title>Preguntas Frecuentes</title>
+  <title>FAQ</title>
   <meta content="Preguntas Frecuentes" property="og:title">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Webflow" name="generator">
@@ -24,20 +24,20 @@
       <div class="nav-logo-wrap"><a href="index.html" class="brand w-nav-brand"><img src="images/logococo.svg" width="60" alt=""></a></div>
       <div class="nav-menu-wrap">
         <nav role="navigation" class="nav-menu-2 w-nav-menu">
-          <a href="membresias.html" class="menu-item-wrapper w-inline-block">
-            <div class="menu-item-text">Membresías</div>
+          <a href="index.html" class="menu-item-wrapper w-inline-block">
+            <div class="menu-item-text">Home</div>
             <div class="menu-item-underline"></div>
           </a>
           <a href="quienes-somos.html" class="menu-item-wrapper w-inline-block">
-            <div class="menu-item-text">Quiénes somos</div>
+            <div class="menu-item-text">Qui sommes nous</div>
             <div class="menu-item-underline"></div>
           </a>
           <a href="preguntas-frecuentes.html" class="menu-item-wrapper w-inline-block w--current">
-            <div class="menu-item-text">Preguntas frecuentes</div>
+            <div class="menu-item-text">FAQ</div>
             <div class="menu-item-underline"></div>
           </a>
           <a href="contactanos.html" class="menu-item-wrapper w-inline-block">
-            <div class="menu-item-text">Contáctanos</div>
+            <div class="menu-item-text">Nous contacter</div>
             <div class="menu-item-underline"></div>
           </a>
         </nav>
@@ -53,7 +53,7 @@
   </div>
   <div class="sections-faq">
     <div class="div-header reservatuespacio preguntasfreq">
-      <h2 class="black-text">Preguntas frecuentes</h2>
+      <h2 class="black-text">FAQ</h2>
       <div class="line"></div>
       <p class="descripcon-seccion-centered paragraph-2">Respondemos todas tus dudas, desde el espacio de cocina hasta la exhibición. Si tienes alguna pregunta adicional, estamos para ayudarte.</p><a href="mailto:coco@dgnl.pe?subject=Coco%20Cookworking" class="button w-button">Contáctate con nosotros</a>
       <div class="div-block-27">
@@ -468,7 +468,7 @@ var accordion = (function(){
   var $accordion = $('.js-accordion');
   var $accordion_header = $accordion.find('.js-accordion-header');
   var $accordion_item = $('.js-accordion-item');
-  // default settings 
+  // default settings
   var settings = {
     // animation speed
     speed: 400,
@@ -481,7 +481,7 @@ var accordion = (function(){
       $accordion_header.on('click', function() {
         accordion.toggle($(this));
       });
-      $.extend(settings, $settings); 
+      $.extend(settings, $settings);
       // ensure only one accordion is active if oneOpen is true
       if(settings.oneOpen && $('.js-accordion-item.active').length > 1) {
         $('.js-accordion-item.active:not(:first)').removeClass('active');
@@ -492,7 +492,7 @@ var accordion = (function(){
     toggle: function($this) {
       if(settings.oneOpen && $this[0] != $this.closest('.js-accordion').find('> .js-accordion-item.active > .js-accordion-header')[0]) {
         $this.closest('.js-accordion')
-               .find('> .js-accordion-item') 
+               .find('> .js-accordion-item')
                .removeClass('active')
                .find('.js-accordion-body')
                .slideUp()
